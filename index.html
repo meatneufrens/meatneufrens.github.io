@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <title>All about Football</title>
+        <link href = "style.css" type = "text/css" rel = "stylesheet">
+        <script src = "main.js" defer></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- link favicion to icon -->
+        <link rel="icon" type= "image/x-icon" href="favicon.ico">
+        <link rel="manifest" href="manifest.json"/>
+    </head>
+    <body>
+        <div id = "start_point"></div>
+        <!-- aria label for screen readers to read the nav class heading -->
+        <nav aria-label = "top_navigation" id = "top_nav">
+            <button class = "top_nav_button interactive_button" id = "menu_button">Open Menu</button>
+            <button class = "top_nav_button interactive_button" id = "history_button">History of Football</button>
+            <button class = "top_nav_button interactive_button" id = "basics_button">Basics of Football</button>
+            <button class = "top_nav_button interactive_button" id = "rules_button">Rules of Football</button>
+            <button class = "top_nav_button interactive_button" id = "leagues_button">Football leagues</button>
+        </nav>
+        <header class = "top_header">
+            <h3>All about football⚽</h3>
+        </header>
+        <main id = "main_container">
+            <!-- figure container to hold slideshow images and a figcaption for the image caption -->
+            <figure class = "main_holder">
+                <img src = "images/pitch_football.jpg" id = "slideshow_image" alt = "football_slideshow">
+                <figcaption class = "image_caption">"Football is not just a game : it's a passion that touches people's hearts," : Yaya Touré</figcaption>
+            </figure>
+        </main>
+        <br>
+        <article id = "history_button_article" class = "article_container">
+            <h2>The history of football 🏛️</h2>
+            <section class = "article_section">
+                <h2>The beginning</h2>
+                <p><span class = "bolded_text">The first documented form of football : </span>known as cuju, originated in China during the Han dynasty (206 BC to 220 AD). 
+                    However, the modern version of football, or association football, emerged in England in the mid-19th century 
+                    with the formation of the Football Association in 1863 and the codification of its rules </p>
+                <p class = "extension_paragraph">
+                    <span class = "bolded_text">Parallel versions : </span>of ball-kicking games existed in other parts of the world:
+                     Kemari in Japan (as early as the 7th century AD), a non-competitive game emphasizing skill and elegance.
+                     Episkyros in ancient Greece, and later Harpastum in ancient Rome, involved more physical contact and may have influenced European medieval games. 
+                     Indigenous cultures in the Americas, such as the Maya and Aztec civilizations, also played ball games, although many of these had religious or ritual significance and were not direct predecessors to modern football.
+                </p>
+                <button class = "interactive_button white_color extension_button">Read more</button>
+            </section>
+            <section class = "article_section">
+                <h2>The start of modern football</h2>
+                <ul>
+                    <li><span class = "bolded_text">First official matches : </span> Clubs began playing under the FA rules. The first official international match was held in 1872 between England and Scotland.</li>
+                    <li><span class = "bolded_text">The FA Cup : </span>In 1871, the FA Cup was established — the oldest national football competition in the world.</li>
+                    <li><span class = "bolded_text">FIFA founded (1904) : </span> The Fédération Internationale de Football Association (FIFA) was created to manage international competition.</li>
+                </ul>
+                <p class = "extension_paragraph"><span class = "bolded_text">Modern football : </span> also known as association football or soccer, began to take shape in the mid-19th century in England. 
+                    More specifically, the formation of the Football Association (FA) in 1863 is considered a key moment in standardizing the rules and laying the foundation for the modern game.
+                </p>
+                <button class = "interactive_button white_color extension_button">Read more</button>
+            </section>
+            <section class = "article_section">
+                <h2>The booming era (Mid to Late 20th Century) </h2>
+                <ul>
+                    <li><span class = "bolded_text">Global Spread : </span>Footballs popularity exploded globally, especially in Europe, South America, Africa, and Asia. The World Cup grew into the most-watched sporting event in the world.</li>
+                    <li><span class = "bolded_text">Professionalism and Commercialization : </span> Football became highly professional with full-time players, sponsorships, television rights, and growing fanbases.</li>
+                    <li><span class = "bolded_text">Major Club Competitions : </span> European club competitions like the European Cup (now UEFA Champions League) started in 1955, showcasing the best club teams internationally.</li>
+                    <li><span class = "bolded_text">Cultural Impact  :</span> Football became a powerful cultural and social force, often reflecting and influencing politics, identity, and social movements worldwide.</li>
+                </ul>
+                <p class = "extension_paragraph"><span class = "bolded_text">The rise of football : </span>The mid to late 20th century transformed football from a mostly European pastime into a truly global phenomenon. It became more professional, tactical, and commercially savvy. 
+                    Legendary players and iconic tournaments captured the imagination of millions, setting the stage for the modern, globally beloved sport it is today.
+                    The birth of many iconic football legends such as pele, maradona and the establishment of many giant powerhouse clubs of today such as Real madrid, AC milan and more were born during this era.
+                </p>
+                <button class = "interactive_button white_color extension_button">Read more</button>
+            </section>
+        </article>
+
+        <article id = "basics_button_article" class = "article_container">
+            <h2>The basics of football 📌</h2>
+            <section class = "article_section">
+                <h2>Passing</h2>
+                <p>Passing is the most basic yet important aspect of football. Passing involves using the insole of your feet to
+                    hit and pass the ball to your teammate.
+                </p>
+                <h3 class = "bolded_text">Click the ball to pass it!</h3>
+                <br>
+                <img src = "images/football_image.png" class = "clickable_football" id = "pass_ball" alt = "football_image">
+            </section>
+
+            <section class = "article_section">
+                <h2>Shooting</h2>
+                <p>Passing is the most basic yet important aspect of football. Passing involves using the insole of your feet to
+                    hit and pass the ball to your teammate.
+                </p>
+                <h3 class = "bolded_text">Click the ball to shoot it!</h3>
+                <br>
+                <img src = "images/football_image.png" class = "clickable_football" id = "shoot_ball" alt = "football_image">
+            </section>
+
+            <section class = "article_section">
+                <h2>Heading</h2>
+                <p>Passing is the most basic yet important aspect of football. Passing involves using the insole of your feet to
+                    hit and pass the ball to your teammate.
+                </p>
+                <h3 class = "bolded_text">Click the ball to head it!</h3>
+                <br>
+                <img src = "images/football_image.png" class = "clickable_football" id = "head_ball" alt = "football_image">
+                <div id = "header_space"></div>
+            </section>
+
+            <section class = "article_section">
+                <h2>Defending / Stealing</h2>
+                <p>Passing is the most basic yet important aspect of football. Passing involves using the insole of your feet to
+                    hit and pass the ball to your teammate.
+                </p>
+            </section>
+
+            <section class = "article_section relative_position">
+                <h2>Play this game to test your <span class = "bolded_text">shooting !</span></h2>
+                <h3>Shoot the ball into the <span class = "bolded_text">goal</span> to score a point !</h3>
+                <h3 id = "game_score">Score : 0</h3>
+                <button class = "interactive_button green_color" id = "game_start_button">Start game !</button>
+                <div id = "shooting_game_canvas" class = "dark_screen">
+                    <div id = "goal_bounds"></div>
+                    <h3 id = "game_notification_paragraph">Click to <span class = "bolded_text">stop</span> the arrow ! (Direction)</h3>
+                    <img src = "images/arrow.png" id = "direction_arrow" alt = "arrow_image">
+                    <p id = "power_scale">Power : 0</p>
+                    <img src = "images/football_image.png" id = "shooting_ball" alt = "football_image">
+                    <img src = "images/football_goal.jpg" id = "shooting_game_image" alt = "goal_post_and_field">
+                </div>
+            </section>
+        </article>
+
+        <article id = "rules_button_article" class = "article_container">
+            <h2>The rules of football 📢</h2>
+            <!-- add relative position class so sprite class absolute positioning is relative to container -->
+            <section class = "article_section relative_position">
+                <div class = "sprite play"></div>
+                <h2>The field and players</h2>
+                <p>
+                    The football field is a rectangular field with two goals at each end. At any point in the game, there can be
+                    a maximum of 22 players on the pitch. With each team kicking off the match with 11 players. 
+                    Each team may assign one designated goalkeeper per team, who can use their hands within the penalty area to catch or deflect the ball.
+                </p>
+            </section>
+
+            <section class = "article_section">
+                <h2>Fouls and misconduct</h2>
+                <p>Fouls include actions like tripping, pushing, or handling the ball (for goalkeepers outside the penalty box or players who are not goalkeepers).
+                    Misconduct can lead to disciplinary actions like yellow or red cards, and even match suspensions in more serious cases. When a player is contesting for the ball 
+                    and cause the player to trip but is fully targetting the ball, it is not considered a foul.
+                    Two yellow cards equate to a red card.
+                </p>
+            </section>
+
+            <section class = "article_section">
+                <h2>Free kicks and penalties</h2>
+                <p>Free kicks are awarded for fouls, and can be direct (allowing a shot at goal) or indirect.
+                    Penalty kicks are awarded for fouls within the penalty area. 
+                </p>
+            </section>
+
+            <section class = "article_section">
+                <h2>Game duration</h2>
+                <p>A standard match lasts 90 minutes, split into two 45-minute halves.
+                    A 15-minute break is awared to both teams at halftime. 
+                </p>
+            </section>
+
+            <section class = "article_section">
+                <h2>Take this quiz to test your knowledge on football rules!🧠</h2>
+                <h2 id = "quiz_score">Score : 0</h2>
+                <fieldset id = "q1_field">
+                    <legend>How long is one football game?</legend>
+                    <input type = "radio" name = "q1" value = "wrong"> 80 Minutes<br>
+                    <input type = "radio" name = "q1" value = "correct"> 90 Minutes<br>
+                    <input type = "radio" name = "q1" value = "wrong"> 45 Minutes<br>
+                    <input type = "radio" name = "q1" value = "wrong"> 15 Minutes
+                </fieldset>
+
+                <fieldset id = "q2_field">
+                    <legend>When is a foul committed on the pitch?</legend>
+                    <input type = "radio" name = "q2" value = "wrong">When a player shoulders their opponent<br>
+                    <input type = "radio" name = "q2" value = "wrong">When a goalkeeper uses their hands inside the penalty box<br>
+                    <input type = "radio" name = "q2" value = "wrong">When a goalkeeper uses their hands outside the penalty box<br>
+                    <input type = "radio" name = "q2" value = "correct">When a player trips another player
+                </fieldset>
+
+                <fieldset id = "q3_field">
+                    <legend>Which of the following rules are correct in a football match?</legend>
+                    <input type = "checkbox" name = "q3" value = "correct">There are 11 players on each side in a standard football match<br>
+                    <input type = "checkbox" name = "q3" value = "wrong">In order to score a goal, the ball must touch the net<br>
+                    <input type = "checkbox" name = "q3" value = "correct">A goalkeeper cannot use their hands outside of the penalty box
+                </fieldset>
+
+                <p class = "quiz_extra">How many balls can there be on the pitch at any one time during a match?</p>
+                <span class = "quiz_extra">Enter here : </span><input type = "number" id = "q4_field">
+
+                <button class = "interactive_button white_color" id = "submit_quiz_id">Submit quiz!</button>
+                <button class = "interactive_button red_button" id = "retry_quiz_id">Retry quiz!</button>
+            </section>
+        </article>
+
+        <article id = "leagues_button_article" class = "article_container">
+            <h2>Football leagues around the world🏆</h2>
+
+            <section class = "article_section">
+                <h2>English Premier League</h2>
+                <p>
+                    The Premier League is widely considered the most competitive and popular football league globally. Known for its high intensity, deep talent pool, and global fanbase, it features historic clubs like Manchester United, Liverpool, and Arsenal.
+                </p>
+                <button class = "interactive_button white_color fact_button blue_button" id = "pl_fact">Click me to get a random fact about the English Premier League!</button>
+                <div id = "pl_fact_area"></div>
+            </section>
+            <section class = "article_section">
+                <h2>La Liga</h2>
+                <p>La Liga is famous for its technical style of play and world-class talent. It is home to legendary clubs like Real Madrid and FC Barcelona, and has been the stage for icons like Lionel Messi and Cristiano Ronaldo.
+                </p>
+                <button class = "interactive_button white_color fact_button orange_button" id = "laliga_fact">Click me to get a random fact about the LaLiga!</button>
+                <div id = "laliga_fact_area"></div>
+            </section>
+
+            <section class = "article_section">
+                <h2>Serie A</h2>
+                <p>Italy's top league is known for tactical brilliance and defensive mastery. Serie A has a rich history with clubs like Juventus, AC Milan, and Inter Milan, and has produced some of the sport’s most iconic players and managers.
+                </p>
+                <button class = "interactive_button white_color fact_button green_button" id = "serie_fact">Click me to get a random fact about the Serie A!</button>
+                <div id = "serie_fact_area"></div>
+            </section>
+
+            <section class = "article_section">
+                <h2>Bundesliga</h2>
+                <p>The Bundesliga is known for fast-paced, attacking football and outstanding fan culture. Bayern Munich has dominated in recent years, but the league also nurtures young talent and maintains high average attendances.
+                <button class = "interactive_button white_color fact_button red_button" id = "bundes_fact">Click me to get a random fact about the Bundesliga</button>
+                <div id = "bundes_fact_area"></div>
+            </section>
+
+            <section class = "article_section">
+                <h2>Ligue 1</h2>
+                <p>Often seen as a talent factory, Ligue 1 features emerging stars and powerhouse clubs like Paris Saint-Germain (PSG). While not as competitive top-to-bottom, it plays a crucial role in European football development.
+                <button class = "interactive_button white_color fact_button" id = "ligue_fact">Click me to get a random fact about the Ligue 1!</button>
+                <div id = "ligue_fact_area"></div>
+            </section>
+
+        </article>
+        <!-- place qr code in footer, enabled if on desktop and disabled if width is below 800px -->
+        <footer id = "qr_container">
+            <h2>Scan me to use on mobile📲</h2>
+            <img src = "images/qr_code.png" id = "qr_image" alt = "qr_code_image">
+        </footer>
+    </body>
+</html>

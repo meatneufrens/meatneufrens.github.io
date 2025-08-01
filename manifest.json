@@ -1,0 +1,15 @@
+{
+    "name": "Webdev A2",
+    "short_name": "WD_A2",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#00FF00",
+    "icons": [
+        {
+            "src": "images/football_icon",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
