@@ -252,7 +252,7 @@ class shooting_game {
         };
         let scale = 1;
         let timer = 0;
-
+        
         let self = this;
         // apply velocity to the ball and stop it after 1 second
         this.moving_interval = setInterval(function(){
